@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <title>BURST Urology Personal Dashboard</title>
+    <style>
+        body {background-color: #f8f9fb; font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0;}
+        h1 {color: #005f99; margin: 30px 0;}
+        .grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; padding: 20px; justify-items: center;}
+        .tile {background-color: #e8f4fa; border-radius: 50%; width: 150px; height: 150px; display: flex; align-items: center; justify-content: center;
+               flex-direction: column; box-shadow: 0 4px 10px rgba(0,95,153,0.2); transition: transform 0.2s;}
+        .tile:hover {transform: scale(1.05);}
+        .tile img {width: 60px; height: 60px; margin-bottom: 10px;}
+        a {text-decoration: none; color: #005f99; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h1>BURST Urology Personal Dashboard</h1>
+    <div class="grid">
+        <div class="tile"><a href="https://www.mskcc.org/nomograms/prostate/biopsy_risk_dynamic" target="_blank"><img src="icons/kidney.png" alt="Kidney"><div>MSKCC Biopsy</div></a></div>
+        <div class="tile"><a href="https://www.mskcc.org/nomograms/prostate/male_life_expectancy" target="_blank"><img src="icons/kidney.png" alt="Kidney"><div>Life Expectancy</div></a></div>
+        <div class="tile"><a href="https://www.mskcc.org/nomograms/prostate" target="_blank"><img src="icons/kidney.png" alt="Kidney"><div>Prostate Nomogram</div></a></div>
+        <div class="tile"><a href="https://bursturologycollaborative.github.io/" target="_blank"><img src="icons/kidney.png" alt="Kidney"><div>BURST Panel</div></a></div>
+        <div class="tile"><a href="https://riskcalc.org/PCPTRC/" target="_blank"><img src="icons/kidney.png" alt="Kidney"><div>PCPT RiskCalc</div></a></div>
+    </div>
+</body>
+</html>

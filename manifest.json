@@ -1,0 +1,14 @@
+{
+  "name": "BURST Urology Personal Dashboard",
+  "short_name": "BURST Urology",
+  "description": "Quick access dashboard to personal AI and clinical tools in Urology.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f8f9fb",
+  "theme_color": "#005f99",
+  "icons": [
+    {"src": "icons/kidney.png", "sizes": "96x96", "type": "image/png"},
+    {"src": "icons/kidney.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/kidney.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
